@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de Textos</title>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais formatações</h1>
-        <h2>Negrito / Destaque</h2>
-            <p>Nesta frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (não semântica).</p>
-            <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; (semântica).</p>
-        <h2>Itálico / Ênfase</h2>
-            <p>Nesta frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (não semântica).</p>
-            <p>Nesta frase temos um <em>termo em ênfase</em> usando a tag &lt;em&gt; (semântica).</p>
-        <h2>Texto marcado</h2>
-            <p>Nesta frase temos um <mark>termo marcado</mark> usando a tag &lt;mark&gt;.</p>
-        <h2>Texto GRANDE e pequeno</h2>
-            <p>Nesta frase temos um <big>termo grande</big> usando a tag &lt;big&gt; e um <small>termo pequeno</small> usando a tag &lt;small&gt;.</p>
-        <h2>Texto deletado</h2>
-            <p>Nesta frase temos um <del>termo deletado</del> usando a tag &lt;del&gt;.</p>
-        <h2>Texto sublinhado / inserido</h2>
-            <p>Nesta frase temos um <u>termo sublinhado</u> usando a tag &lt;u&gt; (não semântica).</p>
-            <p>Nesta frase temos um <ins>termo inserido</ins> usando a tag &lt;ins&gt; (semântica).</p>
-        <h2>Texto sobrescrito</h2>
-            <p>Nesta frase temos um <sup>termo sobrescrito</sup> usando a tag &lt;sup&gt;.</p>
-        <h2>Texto subscrito</h2>
-            <p>Nesta frase temos um <sub>termo subscrito</sub> usando a tag &lt;sub&gt;.</p>
+    <h1>Outras formatações</h1>
+        <h2>Código-fonte / Pré-formatação</h2>
+            <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+            <pre>
+                <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+                </code>
+            </pre>
+        <h2>Citações simples</h2>
+            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+        <h2>Citações completas</h2>
+            <p>Segundo Maurício Samy Silva no seu livro Fundamentos de HTML5 e CSS3:</p>
+            <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover">
+                HTML é a sigla em inglês para <em>HyperText Markup Language</em>, que, em português, significa linguagem para marcação de hipertexto.
+            </blockquote>
+        <h2>Abraviações</h2>
+            <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+        <h2>Texto invertido</h2>
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
 </body>
 </html>
