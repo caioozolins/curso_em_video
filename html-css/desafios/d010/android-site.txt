@@ -10,7 +10,7 @@ Fale Conosco
 
 História do Mascote do Android
 
-Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
 
 A primeira versão
 
@@ -47,7 +47,7 @@ Outro assunto curioso em relação ao Android é que cada versão sempre foi nom
 4.0 - Ice Cream Sandwich
 4.1 - Jelly Bean
 4.4 - KitKat
-5.0 - Lolipop
+5.0 - Lollipop
 6.0 - Marshmallow
 7.0 - Nougat
 8.0 - Oreo
